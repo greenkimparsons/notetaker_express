@@ -29,10 +29,14 @@ module.exports = (app) => {
     response.json(notes);
   });
   
-  localhost/apai/notees/5
   //delete route - /notes/:delete?
-  app.delete("/api/notes/:id", (request, response) => {
-    request.params.id
-    response.json(deleteNote);
-  });
+  // app.delete("/api/notes/:id", (request, response) => {
+  //   for(var i = 0; i < notes.length; i++){
+  //     if(notes[i] === request.params.id) {
+
+  //     }
+  //   }
+    
+  //   response.json(notes);
+  // });
 };
